@@ -1,0 +1,226 @@
+body {
+	background-color:#eff0f5;
+}
+
+.topnav {
+	background-color:#ffffff ;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	left: 0;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+}
+
+.topnav ul {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	line-height: 35px;
+}
+
+.cenavcon li {
+	float: left;
+}
+
+.lfnavcon li{
+	float: right;
+}
+
+.topnav li a {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.topnav ul li a {
+	color: #252f7b;
+}
+
+.topnav ul li a:hover {
+	color: #f95031;
+}
+
+.title {
+	padding-top: 100px;
+	text-align: center;
+	font-family: Arial;
+}
+
+.boxwh {
+	background-color: #ffffff;
+	margin: auto;
+	width: 100%;
+	padding :30px;
+	float: left;
+}
+
+.boxwh .cepicsd {
+	float: left;
+	text-align: center;
+	margin: auto;
+	width: 30%;
+}
+
+.cepicsd img{
+	width: 200px;
+	height: 200px;
+}
+
+.boxwhi {
+	background-color: #ffffff;
+	margin-top: 20px;
+	margin-right: 40px;
+	margin-bottom: 200px;
+	margin-left: 40px;
+	padding-top: 5px;
+	padding-right: 200px;
+	padding-bottom: 5px;
+	padding-left: 200px;
+}
+
+.column {
+	float: left;
+	padding: 10px;
+}
+
+.boxwhi::after {	
+	content: "";
+    clear: both;
+    display: table;
+}
+
+.column a img {
+	width: 170px;
+	height: 170px;
+}
+
+.footer {
+	position: fixed;
+	background-color:#ffffff ;
+	padding: 50px;
+	bottom: 0px;
+	width: 100%;
+}
+
+.footer ul {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	line-height: 35px;
+}
+
+.footer li {
+	float: left;
+}
+
+.footer p {
+	float: right;
+}
+
+.footer li a {
+	display: block;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.footer p {
+	display: block;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.tbbox{
+	background-color: #ffffff;
+	width: 95%;
+	margin: auto;
+	padding: 30px;
+}
+
+.edithac a {
+	float: right;
+	margin: auto;
+	margin-right: 30px;
+	text-decoration: none;
+	font-family: Arial;
+	color: #252f7b;
+}
+
+.edithac a:hover {
+	color: #f95031;
+}
+
+.tbbox tr td {
+	padding: 10px;
+	font-family: Arial;
+}
+
+.tbbox2{
+	background-color: #ffffff;
+	width: 95%;
+	margin: auto;
+	padding: 30px;
+}
+
+.tbbox2 a {
+	text-decoration: none;
+	font-family: Arial;
+	color: #252f7b;
+}
+
+.tbbox2 a:hover {
+	color: #f95031;
+}
+
+.tbbox2 td {
+	border-top: 3px solid black;
+	border-color: #eff0f5;
+	padding: 10px;
+	font-family: Arial;
+}
+
+.tbbox2 tr:hover {
+	background-color: #ececec;
+}
+
+.tbbox tr input {
+	width: 100%;
+}
+
+.tbbox .botton {
+	width: 80px;
+	margin-left: 30px;
+	padding: 5px;
+	font-family: Tahoma;
+	background-color: #28a745;
+	color: #ffffff;
+	border: none;
+}
+
+.whibox {
+	background-color: #ffffff;
+	margin: auto;
+	padding: 30px;
+	width: 80%;
+	margin-top: 100px;
+}
+
+.allcen {
+	text-align: center;
+	font-family: Arial;
+}
+
+.bluebu {
+	font-family: Tahoma;
+	background-color: #007bff;
+	color: #ffffff;
+	border-color: #007bff;
+}
